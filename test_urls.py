@@ -10,7 +10,7 @@ app_redirects = [
         'https://uk.wegotpop.com/login',
         200,
         [
-            (301, 'http://uk.wegotpop.com/login'),
+            (301, 'http://uk.wegotpop.com/apply'),
         ],
         {},
         []
@@ -367,4 +367,3 @@ def test_urls(src_url, dst_url, code, history, headers, strings):
         assert x in response.headers.items()
     for s in strings:
         assert s.encode('utf-8') in response.content
-
