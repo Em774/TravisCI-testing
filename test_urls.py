@@ -10,7 +10,7 @@ app_redirects = [
         'https://uk.wegotpop.com/login',
         200,
         [
-            (301, 'http://uk.wegotpop.com/apply'),
+            (301, 'http://uk.wegotpop.com/login'),
         ],
         {},
         []
